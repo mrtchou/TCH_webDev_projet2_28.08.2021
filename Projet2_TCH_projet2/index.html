@@ -4,16 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/3ee1cc3628.js" crossorigin="anonymous"></script>
-    <title>TCH_RESERVIA</title>
+    <title>RESERVIA</title>
     <link rel="shortcut icon" type="image/png" href="images/logo/Reservia@3x.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="blocpage">
 
-        <!--HEADER/ PARTIE MENU NAVIGATION-->
-
+        <!--PARTIE MENU -->
         <header>
             <div class="containerheader">
                 <div id="logo">
@@ -25,7 +27,7 @@
                             <a href="#Hebergements">Hébergements</a>
                         </li>
 
-                        <li>
+                        <li class="exceptionLinkColorBlack">
                             <a href="#Activites">Activités</a>
                         </li>
                     </ul>
@@ -35,7 +37,7 @@
                 </nav>
             </div>
 
-            <!--HEADER/ TEXTE D'ACCROCHE ET FORMULAIRE DE RECHERCHE-->
+            <!--FORMULAIRE DE RECHERCHE-->
 
             <div class="subtext">
                 <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
@@ -47,7 +49,7 @@
                 </div>
                 <form method="post" action="traitement.php">
                     <p>
-                        <input type="text" name="localisation" id="city" value="Marseille, France">
+                        <input type="text" name="localisation" id="city" placeholder="Marseille, France">
                     </p>
                 </form>
                 <div class="loupelogo">
@@ -56,7 +58,7 @@
                 </div>
             </div>
 
-            <!--HEADER/ FILTRES-->
+            <!--FILTRES-->
 
             <div class="filtres">
                 <h2 class="titrefiltres">Filtres</h2>
@@ -86,7 +88,7 @@
                 </div>
             </div>
 
-            <!--HEADER/ INFORMATION-->
+            <!--INFO-->
 
             <div class="info">
                 <span class="fas fa-info" aria-hidden="true"></span>
@@ -94,7 +96,7 @@
             </div>
         </header>
 
-        <!--CORPS PRINCIPAL DE LA PAGE/ PARTIE HEBERGEMENT-->
+        <!--HEBERGEMENT-->
 
         <main class="hebergementetpop">
             <section id="Hebergements">
@@ -195,7 +197,7 @@
                 </article>
             </section>
 
-            <!-- CORPS PRINCIPAL DE LA PAGE/ PARTIE HEBERGEMENTS POPULAIRES-->
+            <!-- PARTIE HEBERGEMENTS POPULAIRES-->
     
             <section id="pluspopulaires">
                 <h2 class="titresection">Les plus populaires
@@ -253,7 +255,7 @@
             </section>
         </main>
 
-        <!-- CORPS SECONDAIRE DE LA PAGE/ PARTIE ACTIVITES-->
+        <!--PARTIE ACTIVITES-->
 
         <section id="Activites">
             <h2 class="titresection" id="ancreActivites">Activités à Marseille</h2>
@@ -266,7 +268,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="blocActivite">
+                <div class="blocActivite activite2_3_5_6">
                     <div class="Activite Activite2">
                         <a href="#">
                             <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort Pomegues" class="activite2img">
