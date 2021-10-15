@@ -1,100 +1,54 @@
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/3ee1cc3628.js" crossorigin="anonymous"></script>
-    <title>TCH_RESERVIA</title>
-    <link rel="shortcut icon" type="image/png" href="images/logo/Reservia@3x.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-</head>
 <body>
-    <div id="blocpage">
-        <!--PARTIE MENU -->
-        <header>
-            <div class="containerheader">
-                <div id="logo">
-                    <img class="Logohaut" src="images/logo/Reservia.svg" alt="Reservia">
-                </div>
-                <nav class="headernav">
-                    <ul>
-                        <li class="exceptionLinkColorBlack">
-                            <a href="#Hebergements">Hébergements</a>
-                        </li>
 
-                        <li class="exceptionLinkColorBlack">
-                            <a href="#Activites">Activités</a>
-                        </li>
-                    </ul>
-                <div class="inscrire">
-                    <a href="#">S'inscrire</a>
-                </div>
-                </nav>
-            </div>
+    <header>
+        <a href="#">
+            <img src="icon/Reservia.svg" alt="Reservia logo">
+        </a>
+        <nav>
+            <a href="#Hebergements">Hébergements</a>
+            <a href="#Activites">Activités</a>
+            <a href="#inscription" class="lien_inscrire">S'inscrire</a>
+        </nav>
+    </header>
 
-            <!--FORMULAIRE DE RECHERCHE-->
-
-            <div class="subtext">
-                <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
-                <p>En plein centre ville ou en pleine nature</p>
-           </div>
-            <div class="logosearch">
-                <div class="iconemap">
-                    <i class="fas fa-map-marker-alt" ></i>
-                </div>
-                <form method="post" action="traitement.php">
-                    <p>
-                        <input type="text" name="localisation" id="city" placeholder="Marseille, France">
-                    </p>
-                </form>
-                <div class="loupelogo">
-                    <a class="boutonderecherche" href="#">Rechercher</a>
+    
+    <main>
+        <section class="parametres">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form>
+                <div class="fas fa-map-marker-alt map"></div>
+                <input type="text" placeholder="Marseille, France" name="localisation" maxlength = "20">
+                <button>
+                    <span>Rechercher</span>
                     <i class="fas fa-search"></i>
-                </div>
-            </div>
-
-            <!--FILTRES-->
-
+                </button>
+            </form>
             <div class="filtres">
-                <h2 class="titrefiltres">Filtres</h2>
-                <div class="barreFiltre">
-                    <div class="imagefiltre">
-                        <i class="fas fa-money-bill-wave icons"></i>
-                    </div>
-                    <span class="titre">Économique</span>
+                <span>Filtres</span>
+                <div>
+                        <i class="fas fa-money-bill-wave icon"></i>
+                        <span class="descriptionfiltre">Économique</span>
                 </div>
-                <div class="barreFiltre fam">
-                    <div class="imagefiltre">
-                        <i class="fas fa-child icons"></i>
-                    </div>
-                    <span class="titre">Familial</span>
+                <div>
+                        <i class="fas fa-child icon"></i>
+                        <span class="descriptionfiltre">Familial</span>
                 </div>
-                <div class="barreFiltre">
-                    <div class="imagefiltre">
-                        <i class="fas fa-heart icons"></i>
-                    </div>
-                    <span class="titre">Romantique</span>
+                <div>
+                        <i class="fas fa-heart icon"></i>
+                        <span class="descriptionfiltre">Romantique</span>
                 </div>
-                <div class="barreFiltre">
-                    <div class="imagefiltre">
-                        <i class="fas fa-dog icons"></i>
-                    </div>
-                    <span class="titre">Animaux autorisés</span>
+                <div>
+                        <i class="fas fa-dog icon"></i>
+                        <span class="descriptionfiltre">Animaux autorisés</span>
                 </div>
             </div>
-
-            <!--INFO-->
-
             <div class="info">
-                <span class="fas fa-info" aria-hidden="true"></span>
-                <p class="infotext">Plus de 500 logements sont disponibles dans cette ville</p>
-            </div>
-        </header>
-
+                <div class="fas fa-info cercle"></div>
+                <span class="phraseInfo">Plus de 500 logements sont disponibles dans cette ville</span>
+            </div>     
+        </section>
         <!--HEBERGEMENT-->
 
         <main class="hebergementetpop">
