@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Raleway', sans-serif;
   color: black;
@@ -7,86 +8,47 @@ body {
   font-size: 0.95em;
 }
 
-#blocpage {
-  margin: auto;
-  width: 100%;
-}
 
-h1, h2, h3, h4, h5, h6, a 
-{
-  font-family: "Raleway";
-  font-weight: bold;
-}
-
-p {
-  font-family: "Raleway";
-}
-
-
-/*HEADER */
-
-.containerheader {
+/* partie menu */
+header {
+  position: relative;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 2%;
+  margin: 0 3.8% 0 3.8%;
 }
-
-.headernav {
-  display: flex;
-  margin-right: 3%;
+nav{
+ margin-top: 14px;
+ position: relative;
 }
-.Logohaut {
-  cursor: pointer;
-}
-
-header ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  margin-left: auto;
-  color: #0065fc;
-}
-
-header ul li a:hover {
-  border-top: 2px solid #0065fc;
-  margin-top: 5px;
-  padding-top: 13px;
-  color: #0065fc;
-}
-
-header ul li a{
-  margin-left: 28px;
-  color: #0065fc;
-}
-.exceptionLinkColorBlack a
-{
-  color: black;
-}
-
-a {
+header nav a {
   text-decoration: none;
   color: black;
+  padding: 2em;
+  font-weight: 500;
+}
+nav a:hover{
+  border-top: 3px solid #0065FC;
+  padding-top: 48px;
+  color: #0065FC;
+}
+nav a:visited{
+  text-decoration: none;
+}
+.lien_inscrire{
+  color: #0065FC;
+  font-weight: bold;
+}
+.lien_inscrire:hover{
+  border-top: none;
+}
+main{
+  height: 1640px;
 }
 
-.inscrire a {
-  color: #0065fc;
-  margin-right: 0%;
-}
 
-.inscrire a:hover {
-  border-top: 2px solid #0065fc;
-  padding-top: 21px;
-}
 
-.inscrire {
-  padding-left: 28px;
-}
-
-.subtext {
-  margin-bottom: -35px;
-}
 
 /* le formulaire de recherche */
 
