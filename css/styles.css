@@ -1,3 +1,4 @@
+commit barre recherche taille change
 
 
 h1,
@@ -144,16 +145,15 @@ input {
 
 .titrefiltres {
   font-size: 19px;
-  margin: 0 44px 0 0;
+    margin: 0 20px 0 0;
 }
 
 .titre {
   font-family: "Raleway", "Sans serif";
-    font-weight: bold;
-    padding-right: 19px;
-    padding-left: 11px;
-    cursor: pointer;
-    font-size: x-large;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-left: 5px;
+  cursor: pointer;
 }
 
 .barreFiltre:hover {
@@ -175,7 +175,7 @@ input {
 
 .filtres {
   display: flex;
-    align-items: center;
+  align-items: start;
 }
 
 .imagefiltre {
@@ -197,10 +197,6 @@ input {
 
 .info {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: space-around;
-  align-items: center;
 }
 
 .fa-info {
@@ -223,9 +219,6 @@ input {
 .hebergementetpop {
   display: flex;
   margin: 25px 0 50px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: flex-start;
 }
 
 /*HEBERGEMENTS */
@@ -244,16 +237,14 @@ input {
 }
 
 .hotel {
-  display: flex;
-    width: 30%;
-    background: white;
-    border-radius: 20px;
-    padding: 5px;
-    margin: 0 13px 40px 5px;
-    box-shadow: 0 5px 16px #0000002e;
-    transition: all 1s ease;
-    flex-direction: column;
-    flex-wrap: nowrap;
+  width: 30%;
+  background: white;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 5px 20px 5px;
+  box-shadow: 0 5px 16px #0000002e;
+  transition: all 1s ease;
 }
 
 .hotel:hover {
@@ -289,8 +280,7 @@ input {
 
 .afficherplus {
   color: black;
-  padding: 13px;
-  margin-bottom: 25px;
+  padding-left: 8px;
 }
 
 /*POPULAIRES */
@@ -298,9 +288,9 @@ input {
 #pluspopulaires {
   background-color: #f2f2f2;
   border-radius: 15px;
+  width: 32%;
   padding: 20px;
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
 }
 
@@ -315,7 +305,7 @@ input {
   padding: 5px;
   box-sizing: border-box;
   margin: 0px 0px 20px 0px;
-  height: 155px;
+  height: 145px;
   box-shadow: 0 5px 16px #0000002e;
   transition: all 1s ease;
 }
@@ -331,7 +321,7 @@ input {
   cursor: pointer;
   float: left;
   width: 45%;
-  height: 100%;
+  height: 92%;
   border-radius: 15px 0 0 15px;
   margin: 2px 10px 2px 0px;
   object-fit: cover;
@@ -545,16 +535,6 @@ footer {
     padding-bottom: 5px;
   }
 
-
-  input {
-   
-    width: 100px;
-    height: 50px;
-    
-}
-
-
-
   .loupelogo i {
     display: inline;
     color: white;
@@ -573,10 +553,7 @@ footer {
   .filtres {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-wrap: wrap;
   }
 
   .titrefiltres {
@@ -584,6 +561,7 @@ footer {
   }
 
   .barreFiltre {
+    width: 50%;
     margin-bottom: 10px;
   }
 
@@ -592,10 +570,6 @@ footer {
     margin: 34px 0 0 55%;
     width: 35%;
   }
-
-  .titre {
-    font-size: inherit;
-}
 
   /* HEBERGEMENTS ET POPULAIRES */
 
