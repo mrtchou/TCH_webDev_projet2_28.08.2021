@@ -545,27 +545,12 @@ footer section p:hover{
       margin-left: 77px;
   }
 
-  .filtre2
-  {
-    position: relative;
-    right: -200px;
-    top:-55px;
-  }
-
-  .filtre3
-  {
-    position: relative;
-    top:-55px;
-  }
-  .filtre4
-  {
-    position: relative;
-    top:-55px;
-  }
-
-
-
 }
+
+
+
+
+
 
 
 
@@ -716,4 +701,24 @@ footer section p:hover{
   .partieFiltres h1{
       margin-top: 20px;
   }
+
+
+  .filtre2
+  {
+    position: relative;
+    right: -200px;
+    top:-55px;
+  }
+
+  .filtre3
+  {
+    position: relative;
+    top:-55px;
+  }
+  .filtre4
+  {
+    position: relative;
+    top:-55px;
+  }
+
 }
