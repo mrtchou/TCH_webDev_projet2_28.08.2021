@@ -4,7 +4,7 @@ body {
   max-width: 1440px;
   width: auto;
   margin: 0 auto;
-  font-size: 0.95em;
+  font-size: 13px;
 }
 header {
   position: relative;
@@ -21,7 +21,7 @@ nav{
 header nav a {
   text-decoration: none;
   color: black;
-  padding: 2em;
+  padding: 25px;
   font-weight: 500;
 }
 nav a:hover{
@@ -32,11 +32,11 @@ nav a:hover{
 nav a:visited{
   text-decoration: none;
 }
-.lien_inscrire{
+.s_inscrire{
   color: #0065FC;
   font-weight: bold;
 }
-.lien_inscrire:hover{
+.s_inscrire:hover{
   border-top: none;
 }
 main{
@@ -51,20 +51,20 @@ main{
 .partieFiltres h1{
   font-weight:800;
   margin-bottom: 0;
-  font-size: 1.35em;
+  font-size: 18px;
 }
 .partieFiltres p{
   margin-top: 7px;
-  font-size: 0.9em;
+  font-size: 11px;
   font-weight: 600;
 }
 form {
-  margin: 0.8em 0 1em 0;
+  margin: 10px 0 13px 0;
   display: flex;
   justify-content: flex-start;
 }
 .map{
-  font-size: 1.1em;
+  font-size: 13px;
   width: 50px;
   cursor: pointer;
   display: flex;
@@ -75,35 +75,35 @@ form {
   background-color: #F2F2F2;
 }
 .map:hover{
-  font-size: 1.3em;
+  font-size: 17px;
 }
 input{
   height: 43.5px;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 13px;
   margin: 0;
   width: 17%;
   min-width: 155px;
   border: 2px solid rgb(242,242,242);
-  font-size: 1.1em;
+  font-size: 13px;
   font-family: inherit;
   font-weight: 600;
 }
 input::placeholder{
   color: #808080;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 13px;
 }
 button{
   color: white;
   background-color: #0065FC;
   cursor: pointer;
   font-family: inherit;
-  font-size: 1.1em;
+  font-size: 13px;
   font-weight: 600;
   height: 45px;
   width: 125px;
   padding: 10px;
-  margin: 0em;
+  margin: 0;
   border-radius: 0 16px 16px 0;
   border: none;
 }
@@ -111,7 +111,7 @@ button{
   display: none;
 }
 button:hover{
-  font-size: 1em;
+  font-size: 13px;
 }
 .filtres{
   display: flex;
@@ -122,7 +122,7 @@ button:hover{
 }
 .filtres span{
   font-weight: 800;
-  font-size: 1.15em;
+  font-size: 20px;
   display: block;
 }
 .filtres div{
@@ -138,7 +138,7 @@ button:hover{
 .icon{
   color: #0065FC;
   background-color: #DEEBFF;
-  font-size: 1.1em;
+  font-size: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,17 +150,17 @@ button:hover{
 }
 .filtres div span{
   font-weight: 800;
-  font-size: 1.1em;
+  font-size: 15px;
   margin-left: 25px;
   margin-right: 25px;
 }
 .filtres div:hover{
-  border: 2px solid #0065fc;
-  background-color: #DEEBFF;
+  border: 2px solid #3678db;
+  background-color: #3678db;
   transition: 0.2s;
 }
 .filtres div:hover .descriptionfiltre{
-  color: #0065FC;
+  color: #3678db;
   transition: 0.2s;
 }
 .filtres div:hover .icon{
@@ -170,15 +170,15 @@ button:hover{
 }
 .phraseInfo{
   font-weight: 600;
-  font-size: 0.90em;
+  font-size: 15px;
 }
 .cercle{
   color: #0065FC;
-  font-size: 0.70em;
+  font-size: 15px;
   border: 1px solid rgb(217, 217, 217);
   border-radius: 100%;
-  height: 1.3em;
-  width: 1.3em;
+  height: 15px;
+  width: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,27 +188,29 @@ button:hover{
 .info{
   display: flex;
   align-items: center;
-  margin-bottom: 1em;
-  margin-top: 1.2em;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
-/*------------------------------------style hébérgement--------------------------------------------*/
+
+
+/* hebergement */
 .hebergement{
   display: flex;
   justify-content: space-between;
   margin: 30px 3.8% 0 3.8%;
 }
 .hebergement h2{
-  font-size: 1.3em;
+  font-size: 18px;
   width: fit-content;
   margin: 0 0 25px 0;
 }
 .hebergement p{
   letter-spacing: 0.1px;
-  font-size: 1.2em;
+  font-size: 15px;
   font-weight: 800;
   cursor: pointer;
   width: fit-content;
-  width: -moz-fit-content;    /*pour firefox*/
+  width: -moz-fit-content; 
   margin-top: 50px;
 }
 .hebergement p:hover{
@@ -248,8 +250,6 @@ button:hover{
   transition: transform .2s;
 }
 .hebergement section .blocartes div article:hover {
-  -ms-transform: scale(1.019); /* IE 9 */
-  -webkit-transform: scale(1.019); /* Safari 3-8 */
   transform: scale(1.019); 
 }
 .hebergement section .blocartes div article:active{
@@ -264,19 +264,19 @@ button:hover{
   object-fit: cover;
 }
 .blocartes article h3{
-  font-size: 1em;
+  font-size: 15px;
   margin: 8px 0 4px 15px;
 }
 .description{
   margin: 0 0 0 15px;
-  font-size: 0.9em;
+  font-size: 15px;
   font-weight: 400;
 }
 .etoiles{
   display: flex;
   justify-content: flex-start;
   margin: 7px 0 0 15px;
-  font-size: 0.8em;
+  font-size: 10px;
 }
 .bleu{
   color: #0065FC;
@@ -307,8 +307,6 @@ aside div{
   padding: 4px 30px 5px 30px;
 }
 aside div article:hover {
-  -ms-transform: scale(1.019); /* IE 9 */
-  -webkit-transform: scale(1.019); /* Safari 3-8 */
   transform: scale(1.019); 
 }
 aside div article:active{
@@ -340,33 +338,33 @@ aside div article{
   transition: transform .2s;
 }
 aside div article div h3:nth-child(1){
-  font-size: 1em;
+  font-size: 13px;
   margin-top: 4px;
   margin-bottom: 10px;
   padding-right: 8px;
 } 
 aside div article div h3:nth-child(2){
-  font-size: 1em;
+  font-size: 13px;
   margin-top: 4px;
   margin-bottom: 10px;
 } 
 aside div article div span{
   all: unset;
   font: inherit;
-  font-size: 0.9em;
+  font-size: 11px;
   font-weight: 400;
   margin: 0;
   overflow: hidden;
   white-space: nowrap;
 }
 .fa-chart-line{
-  font-size: 1.6em;
+  font-size: 20px;
 }
 .etoiles_populaire{
   all: unset;
   display: flex;
   justify-content: flex-start;
-  font-size: 0.8em;
+  font-size: 10px;
   padding: 50px 0 2px 0;
 }
 .etoiles_populairemilieu{
@@ -375,7 +373,7 @@ aside div article div span{
   all: unset;
   display: flex;
   justify-content: flex-start;
-  font-size: 0.8em;
+  font-size: 10px;
   padding: 33px 0 2px 0;
 }
 
@@ -429,8 +427,6 @@ aside div article div span{
   border-radius: 15px;
 }
 .grandecarte:hover, .doublecartepartie1:hover, .doublecartepartie2:hover, .doublecarte2partie1:hover, .doublecarte2partie2:hover{
-  -ms-transform: scale(1.019); /* IE 9 */
-  -webkit-transform: scale(1.019); /* Safari 3-8 */
   transform: scale(1.019); 
   cursor: pointer;
 }
@@ -491,12 +487,12 @@ footer{
   padding: 30px 3.8% 0 3.8%;
 }
 footer section{
-  padding: 1em 1em;
+  padding: 10px 10px;
   width: 30%;
 }
 footer section h2{
   margin-bottom: 10px;
-  font-size: 1.2em;
+  font-size: 18px;
 }
 footer section p{
   margin-top: 20px;
@@ -579,7 +575,7 @@ footer section p:hover{
   }
   .filtres div{
       margin: 0;
-      font-size: 0.9em;
+      font-size: 11px;
   }
   .filtres div span{
       margin-left: 11px;
@@ -649,7 +645,7 @@ footer section p:hover{
       border-right: none;
       border-left: none;
       height: 50px;
-      margin: 1.1em 0 1.3em 0;
+      margin: 15px 0 17px 0;
   }
   header {
       display: block;
@@ -672,7 +668,7 @@ footer section p:hover{
       border-top: unset;
       padding-top: 0;
   }
-  .lien_inscrire {
+  .s_inscrire {
       all: unset;
       position: absolute;
       top: 19px;
@@ -681,7 +677,7 @@ footer section p:hover{
       color: #0065FC;
       font-weight: bold;
   }
-  .lien_inscrire:hover{
+  .s_inscrire:hover{
       all: unset;
       border-top: none;
       color: #0065FC;
@@ -692,6 +688,6 @@ footer section p:hover{
       width: unset;
   }
   .partieFiltres h1{
-      margin-top: 1.8em;
+      margin-top: 20px;
   }
 }
