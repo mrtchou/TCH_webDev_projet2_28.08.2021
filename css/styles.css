@@ -159,7 +159,7 @@ button:hover{
   transition: 0.2s;
 }
 .filtres div:hover .descriptionfiltre{
-  color: #0065FC;
+  color: white;
   transition: 0.2s;
 }
 .filtres div:hover .icon{
@@ -544,6 +544,27 @@ footer section p:hover{
   {
       margin-left: 77px;
   }
+
+  .filtre2
+  {
+    position: relative;
+    right: -200px;
+    top:-55px;
+  }
+
+  .filtre3
+  {
+    position: relative;
+    top:-55px;
+  }
+  .filtre4
+  {
+    position: relative;
+    top:-55px;
+  }
+
+
+
 }
 
 
