@@ -55,7 +55,7 @@ main{
 }
 .partieFiltres p{
   margin-top: 7px;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 600;
 }
 form {
@@ -381,7 +381,7 @@ aside div article div span{
 
 
 
-/* Activités */
+/* ActivitÃŠs */
 .activites{
   height: 700px;
   width: auto;
