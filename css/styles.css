@@ -545,6 +545,25 @@ footer section p:hover{
       margin-left: 77px;
   }
 
+  aside div article div h3:nth-child(1)
+  {
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding-right: 8px;
+  }
+
+  aside div article div span
+  {
+    all: unset;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
 }
 
 
@@ -700,6 +719,15 @@ footer section p:hover{
   }
   .partieFiltres h1{
       margin-top: 20px;
+  }
+
+
+  aside div article div h3:nth-child(1)
+  {
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding-right: 8px;
   }
 
 
