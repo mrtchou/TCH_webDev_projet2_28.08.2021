@@ -137,7 +137,7 @@ button:hover{
 }
 .icon{
   color: #0065FC;
-  background-color: #DEEBFF;
+  background-color: #F2F2F2;
   font-size: 15px;
   display: flex;
   align-items: center;
@@ -155,12 +155,11 @@ button:hover{
   margin-right: 25px;
 }
 .filtres div:hover{
-  border: 2px solid #3678db;
-  background-color: #3678db;
+  background-color: #0065FC;
   transition: 0.2s;
 }
 .filtres div:hover .descriptionfiltre{
-  color: #3678db;
+  color: #0065FC;
   transition: 0.2s;
 }
 .filtres div:hover .icon{
@@ -381,7 +380,7 @@ aside div article div span{
 
 
 
-/* ActivitÃŠs */
+/* Activités */
 .activites{
   height: 700px;
   width: auto;
@@ -505,7 +504,10 @@ footer section p:hover{
 }
 
 
-/* Tablette */
+
+
+
+/* Tablette responsive */
 @media all and (max-width: 900px){
   .hebergement{
       flex-direction: column-reverse;
@@ -543,6 +545,9 @@ footer section p:hover{
       margin-left: 77px;
   }
 }
+
+
+
 
 /* mobiles */
 @media screen and (max-width: 610px) {
